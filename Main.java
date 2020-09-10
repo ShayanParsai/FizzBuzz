@@ -24,7 +24,7 @@ public class Main {
                 System.out.println("Answer to the Ultimate Question of Life, the Universe, and Everything");
             }
 
-            else {
+            else if (i%3 != 0 & i%5 != 0 & i != 42){
                 System.out.println(i);
             }
         }
