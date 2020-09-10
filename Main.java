@@ -2,19 +2,17 @@ package com.company;
 
 public class Main {
 
-    
-    // MADE BY : Shayan / Islam / LeszeK
-    
     public static void main(String[] args) {
 
 
-        for (int i=0; i<101; i++){
+        for (int i=1; i<101; i++){
 
-            if (i%3 == 0){
+            if (i%3 == 0 & i != 42 & i !=15 & i !=30 & i !=45 & i !=60 & i !=75 & i !=90){
                 System.out.println("Fizz");
+
             }
 
-            if (i%5 == 0){
+            if (i%5 == 0 & i !=15 & i !=30 & i !=45 & i !=60 & i !=75 & i !=90){
                 System.out.println("Buzz");
             }
 
@@ -26,7 +24,7 @@ public class Main {
                 System.out.println("Answer to the Ultimate Question of Life, the Universe, and Everything");
             }
 
-            else{
+            else {
                 System.out.println(i);
             }
         }
