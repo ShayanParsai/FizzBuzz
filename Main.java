@@ -26,6 +26,7 @@ public class Main {
 
             else if (i%3 != 0 & i%5 != 0 & i != 42){
                 System.out.println(i);
+                //great code
             }
         }
     }
