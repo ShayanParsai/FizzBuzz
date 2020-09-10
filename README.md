@@ -1,1 +1,3 @@
 # FizzBuzz
+
+School assignment
